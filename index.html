@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our 3 Months Anniversary</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Fawn and Sven Love Story</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#journey">Journey</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#message">Message</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="overlay"></div>
+        <div class="container text-center">
+            <h1 class="display-1 text-white">3 Months of Love</h1>
+            <p class="lead text-white">Celebrating our beautiful journey together</p>
+            <button class="btn btn-light btn-lg mt-4" id="startJourney">Start Our Journey!</button>
+        </div>
+    </header>
+
+    <!-- Timeline Section -->
+    <section id="journey" class="timeline-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Journey</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="timeline-card">
+                        <div class="card">
+                            <img src="WhatsApp Image 2025-05-16 at 16.57.42_37275532.jpg" style="max-width: 100%; height: auto;" class="card-img-top" alt="First Date">
+                            <div class="card-body">
+                                <h5 class="card-title">First Date</h5>
+                                <p class="card-text">The beginning of our beautiful story...</p>
+                                <button class="btn btn-outline-primary btn-sm view-more" data-bs-toggle="modal" data-bs-target="#storyModal">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="timeline-card">
+                        <div class="card">
+                            <img src="output-onlinepngtools (1).png" class="card-img-top" alt="Special Moments">
+                            <div class="card-body">
+                                <h5 class="card-title">Special Moments</h5>
+                                <p class="card-text">Every moment with you is precious...</p>
+                                <button class="btn btn-outline-primary btn-sm view-more" data-bs-toggle="modal" data-bs-target="#storyModal1">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="timeline-card">
+                        <div class="card">
+                            <img src="Iceromi🫶🏻.jpeg" class="card-img-top" alt="3 Months">
+                            <div class="card-body">
+                                <h5 class="card-title">3 Months Together</h5>
+                                <p class="card-text">Here's to many more months of love...</p>
+                                <button class="btn btn-outline-primary btn-sm view-more" data-bs-toggle="modal" data-bs-target="#storyModal2">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Gallery</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="download (1).jpeg" alt="Gallery Image" class="img-fluid rounded" data-bs-toggle="modal" data-bs-target="#imageModal">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="download (3).jpeg" alt="Gallery Image" class="img-fluid rounded" data-bs-toggle="modal" data-bs-target="#imageModal">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="𝗦𝗼𝘂𝗿𝗰𝗲 _ 希泥糊图.jpeg" alt="Gallery Image" class="img-fluid rounded" data-bs-toggle="modal" data-bs-target="#imageModal">
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <button class="btn btn-primary" id="loadMore">Load More Photos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message Section -->
+    <section id="message" class="message-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="mb-4">To My Love</h2>
+                    <p class="love-message">
+                        Three months of laughter, joy, and endless love. Every moment with you has been a blessing. 
+                        Here's to many more months of creating beautiful memories together. I love you more than words can express.
+                    </p>
+                    <div class="heart-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <button class="btn btn-outline-danger mt-4" id="showLoveMessage">Click for a Special Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container text-center">
+            <p class="mb-0">Made with <i class="fas fa-heart text-danger"></i> for our 3 months anniversary</p>
+            <div class="social-links mt-3">
+                <a href="#" class="btn btn-outline-light me-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-outline-light me-2"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="btn btn-outline-light"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Story Modal -->
+    <div class="modal fade" id="storyModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Our Story</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Our story began with something so simple, those little messages on X. But in those ordinary moments, something extraordinary happened. You, with your bright humor and warmth, drew me in this social butterfly who somehow made my quiet world feel alive. I never imagined those small talks would lead me to you, to us. Now here we are, and I wouldn’t trade a single second of how we started.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- Story Modal -->
+    <div class="modal fade" id="storyModal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Our Story</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body-1">
+                    <p> Every moment with you is special, but what I love most is how you notice the little things about me how you truly see me, even when I’m hard to understand. It’s in those small gestures that I feel loved the most. Honestly? I just… I love every single thing about us.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+          <!-- Story Modal -->
+    <div class="modal fade" id="storyModal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Our Story</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body-2">
+                    <p> Babe, can't believe it's already been 3 months since those random X chats turned into this. You  the one who actually gets my weird humor and sticks around even when I'm being my awkward self.
+                    <br> <br>Remember how we used to stay up late just texting nonsense? Now here we are, you knowing me better than anyone, noticing little things about me I didn't think anyone would care about.
+                    <br> <br> These months with you have been...honestly? Kinda magical in the most unexpected way. You make my quiet moments feel comfortable and my loud ones feel understood.
+
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal"></button>
+                    <img src="" class="img-fluid" id="modalImage">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
